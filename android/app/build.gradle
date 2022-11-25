@@ -217,6 +217,13 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+
+        // release {
+        //     storeFile file('')
+        //     storePassword ''
+        //     keyAlias ''
+        //     keyPassword ''
+        // }
     }
     buildTypes {
         debug {
